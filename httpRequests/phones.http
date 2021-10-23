@@ -1,0 +1,24 @@
+GET http://localhost:5000/api/phones HTTP/1.1
+
+###
+
+DELETE http://localhost:5000/api/phones/6172fd9af28b0550d1d7159f HTTP/1.1
+
+###
+
+GET http://localhost:5000/api/phones/6172fd9af28b0550d1d7159f HTTP/1.1
+
+###
+
+POST http://localhost:5000/api/phones HTTP/1.1
+Content-Type: application/json
+
+{
+    "brand": "Xiaomi",
+    "color": "Grey",
+    "model": "Redmi Note",
+    "manufacture_year": "2020-10-08",
+    "RAM_size": 8,
+    "CPU_name": "Qualcomm Snapdragon",
+    "has_NFC": true
+}

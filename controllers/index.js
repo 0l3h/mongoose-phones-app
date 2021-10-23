@@ -1,0 +1,1 @@
+module.exports.phonesController = require('./user.controller');
