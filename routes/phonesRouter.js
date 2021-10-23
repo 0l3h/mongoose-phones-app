@@ -1,6 +1,6 @@
+const {phonesController} = require('./../controllers');
 const {Router} = require('express');
 const phonesRouter = Router();
-const {phonesController} = require('./../controllers');
 
 phonesRouter.route('/')
     .get(phonesController.getPhones)

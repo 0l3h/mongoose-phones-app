@@ -1,7 +1,7 @@
-const express = require('express');
-const app = express();
 const router = require('./router');
 const errorsHandler = require('./middleware');
+const express = require('express');
+const app = express();
 
 app.use(express.json());
 
